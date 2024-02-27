@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SelectZone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>SelectZone</h1>
+  </header>
+  <main>
+    <section class="status">
+      <h2>สถานะที่จอดรถ</h2>
+      <ul>
+        <li>
+          <span class="zone">หน้าตึกโยธา</span>
+          <span class="available">ว่าง 10 ช่อง</span>
+        </li>
+        <li>
+          <span class="zone">หน้าตึกโหล</span>
+          <span class="full">เต็ม</span>
+        </li>
+        <li>
+          <span class="zone">หน้าโรงอาหาร</span>
+          <span class="available">ว่าง 5 ช่อง</span>
+        </li>
+      </ul>
+    </section>
+    <section class="search">
+      <h2>ค้นหาที่จอดรถ</h2>
+      <form action="/search">
+        <input type="text" name="zone" placeholder="ค้นหาโซน">
+        <button type="submit">ค้นหา</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง</p>
+  </footer>
+</body>
+</html>
